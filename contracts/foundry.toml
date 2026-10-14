@@ -1,0 +1,17 @@
+[profile.default]
+src = "src"
+test = "test"
+out = "out"
+libs = ["lib"]
+auto_detect_solc = true
+evm_version = "istanbul"
+optimizer = true
+optimizer_runs = 800
+bytecode_hash = "none"
+cbor_metadata = false
+remappings = [
+  "@uniswap/v3-core/=lib/v3-core/",
+  "@uniswap/v3-periphery/=lib/v3-periphery/",
+  "@openzeppelin/=lib/oz/",
+  "forge-std/=lib/forge-std/src/",
+]

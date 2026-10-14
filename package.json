@@ -1,0 +1,14 @@
+{
+  "name": "nadcab-amm-v3-dex",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "viem": "^2.57.6"
+  },
+  "private": true,
+  "type": "module"
+}
